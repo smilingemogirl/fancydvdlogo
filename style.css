@@ -1,0 +1,67 @@
+body {
+	font-family: "Arial", "Verdana", "Helvetica", sans-serif;
+	background-color: #000000;
+}
+
+#optionbutton {
+	background-color: #f48c04;
+}
+
+#optionbutton:hover {
+	background-color: #995803;
+}
+
+#pausebutton {
+	background-color: #e0221f;
+}
+
+#pausebutton:hover {
+	background-color: #8c1513;
+	cursor: pointer;
+}
+
+#startbutton {
+	background-color: #68c147;
+	display:none;
+}
+
+#startbutton:hover {
+	background-color: #447f2f;
+	cursor: pointer;
+}
+
+.optionbuttons {
+	color: white;
+	padding: 8px;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 4px 4px 10px black;
+	position: relative;
+	z-index: 1;
+}
+
+.options {
+	display:none;
+	z-index: 1;
+	border: solid 2px black;
+	border-radius: 8px;
+	box-shadow: 4px 4px 10px black;
+	position: relative;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.optionsdiv {
+	max-width: 400px;
+}
+
+div[id="logo"] {
+	position: absolute;
+	overflow: hidden;
+}
+
+.optionsdiv:hover .options {
+	display: block;
+}
