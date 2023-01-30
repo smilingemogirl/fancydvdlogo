@@ -17,3 +17,9 @@ Bugs to fix:
 * An option box doesn't seem to open once you hover over the button, so I made detect over a certain area instead.
 
 If you can solve this problem, I would be very grateful. <3
+
+## Running
+
+Just clone this repository or download a .zip file on your computer, unpack it and open an 'index.html' file.
+
+You can also use it [here](https://raw.githack.com/smilingemogirl/fancydvdlogo/main/index.html).
